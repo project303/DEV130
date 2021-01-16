@@ -1,7 +1,7 @@
 # DEV303
 
 ### Week 1 
-1. Assignment <br
+1. Assignment <br>
 [Install CentOS7 on Oracle VirtualBox](https://github.com/project303/DEV303/blob/main/Install%20CentOS7.md) <br>
 [Install Jupyter Notebook](https://github.com/project303/DEV303/blob/main/Install%20Jupyter%20Notebook.md)
 
