@@ -47,7 +47,7 @@ usermod -aG wheel <your-name>
 groupadd analyst
 ```
 
-10. Add **<your-name>** to **analyst** group
+10. Add **your-name** to **analyst** group
 ```bash
 usermod -a -G analyst yava
 groups yava
