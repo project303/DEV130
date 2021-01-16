@@ -30,6 +30,8 @@ Start VM, select the CentOS7 ISO file and follow the instruction
 8. Get IP address <br>
 Login as root and type `ip addr`
 
-8. Download and install Putty on Windows <br>
+9. Download and install Putty on Windows <br>
 Get Putty installer for Windows 64 bit [here](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+
+10. Login to CentOS7 using Putty
 
