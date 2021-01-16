@@ -13,5 +13,15 @@ Type   : Linux <br>
 Version : Red-hat (64-bit) <br> 
 RAM : 4096 MB <br>
 Storage On Physical Disk: Fixed size <br>
-Size &nbsp; : 64 GB 
+Size &nbsp; : 64 GB
+
+4. Set processor to 2 CPU (recommended 4 CPU) <br>
+Setting --> System --> Processor --> set number of CPU
+
+5. Enable remote display
+Setting --> Display --> Remote display --> Enable remote display
+
+6. Add network adapter 'Host-only Adapter'
+Setting --> Network --> Adapter 2 --> Enable Adapter --> Set attach to : Host-only Adapter
+
 
