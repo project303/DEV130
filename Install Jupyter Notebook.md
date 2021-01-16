@@ -54,12 +54,12 @@ groups yava
 ```
 
 ## Install Miniconda
-8. Download miniconda
+1. Download miniconda
 ```bash
 wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 ```
 
-9. Install miniconda <br>
+2. Install miniconda <br>
 ```bash
 ./Miniconda3-latest-Linux-x86_64.sh
 ```
@@ -80,4 +80,39 @@ Do you wish the installer to prepend the Anaconda3 install location
 to PATH in your /root/.bashrc ? [yes|no]
 [no] > > >  yes
 ```
+
+3. Change group ownership of /opt/miniconda3 dorectory
+```bash
+chgrp -R analyst miniconda3
+chmod -R ug+rwx /opt/miniconda3
+```
+
+4. Relogin using **your-name**
+```bash
+su - <your-name>
+```
+
+5. Initialize miniconda
+```bash
+/opt/miniconda3/conda init
+conda config --set auto_activate_base false
+```
+
+6. Create environment in miniconda and install jupyter notebook
+```bash
+conda create -n training python=3
+conda install jupyter
+```
+
+7. Start jupyter notebook
+```bash
+jupyter notebook --no-browser --ip="0.0.0.0" --port=8890
+```
+
+8. Open Jupyter notebook by using web broser <br>
+Copy link given when jupter notebook started <br>
+Paste the url <br>
+
+9. Lets do the code and have fun 
+
 
