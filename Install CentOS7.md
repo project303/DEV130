@@ -11,7 +11,7 @@ VM configuration <br>
 Name   : lunchbox <br>
 Type   : Linux <br>
 Version : Red-hat (64-bit) <br> 
-RAM &nbsp; : 4096 MB <br>
+RAM : 4096 MB <br>
 Storage On Physical Disk: Fixed size <br>
 Size &nbsp; : 64 GB 
 
