@@ -18,10 +18,10 @@ Size &nbsp; : 64 GB
 4. Set processor to 2 CPU (recommended 4 CPU) <br>
 Setting --> System --> Processor --> set number of CPU
 
-5. Enable remote display
+5. Enable remote display <br>
 Setting --> Display --> Remote display --> Enable remote display
 
-6. Add network adapter 'Host-only Adapter'
+6. Add network adapter 'Host-only Adapter' <br>
 Setting --> Network --> Adapter 2 --> Enable Adapter --> Set attach to : Host-only Adapter
 
 
