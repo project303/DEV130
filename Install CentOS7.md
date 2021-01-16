@@ -9,7 +9,7 @@ You can download x86_64 version from one of the [mirror site](http://isoredirect
 3. Create virtual machine <br>
 VM configuration <br>
 Name &nbsp; : lunchbox <br>
-Type &nbsp; : Linux <br>
+Type &nbsp;&nbsp; : Linux <br>
 Version &nbsp; : Red-hat (64-bit) <br> 
 RAM &nbsp; : 4096 MB <br>
 Storage On Physical Disk: Fixed size <br>
