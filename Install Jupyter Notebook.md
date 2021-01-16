@@ -33,3 +33,15 @@ yum -y update && yum -y upgrade
 yum install -y net-tools
 yum install -y wget
 ```
+
+8. Download miniconda
+```bash
+wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+```
+
+9. Install miniconda <br>
+```bash
+./Miniconda3-latest-Linux-x86_64.sh
+```
+<br>
+dakfj
