@@ -7,6 +7,8 @@ Go to VirtualBox [website](https://www.virtualbox.org) to download the binary fo
 You can download x86_64 version from one of the [mirror site](http://isoredirect.centos.org/centos/7/isos/x86_64)
 
 3. Create virtual machine <br>
-VM configuration
-Name: lunchbox <br>
-RAM: 4GB <br>
+VM configuration <br>
+Name    : lunchbox <br>
+RAM     : 4096 MB <br>
+Storage On Physical Disk: Fixed size <br>
+Size    : 64 GB 
