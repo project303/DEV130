@@ -34,9 +34,9 @@ su - postgres
 ```bash
 vi /var/lib/pgsql/12/data/pg_hba.conf
 ```
-Add
+Add network segment as trusted, for example **10.1.1.0/24**
 ```bash
-host    all             all             ::/0                    trust
+host    all             all             10.1.1.0/24                trust
 ```
 
 3. Allow TCP/IP socket
