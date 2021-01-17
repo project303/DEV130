@@ -75,16 +75,24 @@ Anaconda3 will now be installed into this location:
 
 [/root/anaconda3] > > >  /opt/miniconda3
 ```
-Let install modify .bashrc
+Let the installer modify .bashrc
 ```bash
 Do you wish the installer to prepend the Anaconda3 install location
 to PATH in your /root/.bashrc ? [yes|no]
 [no] > > >  yes
 ```
 
-3. Change group ownership of /opt/miniconda3 dorectory
+3. After installaion is finished, relogin to CentOS7
+The easiest way is to duplicate Putty window
+
+5. Disable automatic conda environment activate during startup
 ```bash
-chgrp -R analyst miniconda3
+conda config --set auto_activate_base false
+```
+
+4. Change group ownership of /opt/miniconda3 dorectory
+```bash
+chgrp -R analyst /opt/miniconda3
 chmod -R ug+rwx /opt/miniconda3
 ```
 
@@ -95,13 +103,21 @@ su - <your-name>
 
 5. Initialize miniconda
 ```bash
-/opt/miniconda3/conda init
-conda config --set auto_activate_base false
+/opt/miniconda3/bin/conda init
+/opt/miniconda3/bin/conda config --set auto_activate_base false
 ```
+
+6. Relogin to CentOS7 using **your-name** <br>
+Verify conda installation
+```bash
+conda --v
+```
+
 
 6. Create environment in miniconda and install jupyter notebook
 ```bash
 conda create -n training python=3
+conda activate training
 conda install jupyter
 ```
 
@@ -112,8 +128,12 @@ jupyter notebook --no-browser --ip="0.0.0.0" --port=8890
 
 8. Open Jupyter notebook by using web broser <br>
 Copy link given when jupter notebook started <br>
+For example: <br>
+```bash
+http://<ip-addr>:8890/?token=5cf42f450e2fec9735d9280f0cd1aab9f446b64cccbfc507
+```
 Paste the url <br>
 
-9. Lets do the code and have fun 
+9. **Lets do the code and have fun** 
 
 
