@@ -24,7 +24,7 @@ reboot
 yum install -y  epel-release
 ```
 
-6. Upgrade CentOS7 to get latest update and patch
+6. Update CentOS7 to get latest update and patch
 ```bash
 yum -y update && yum -y upgrade
 ```
