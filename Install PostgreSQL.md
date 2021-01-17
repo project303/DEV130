@@ -11,4 +11,33 @@ Installation script will be provided
 3. Connect CentOS7 using **root**
 
 4. Follow the command provided by PostgreSQL page
+```bash
+# Install the repository RPM:
+sudo yum install -y https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-x86_64/pgdg-redhat-repo-latest.noarch.rpm
+
+# Install PostgreSQL:
+sudo yum install -y postgresql12-server
+
+# Optionally initialize the database and enable automatic start:
+sudo /usr/pgsql-12/bin/postgresql-12-setup initdb
+sudo systemctl enable postgresql-12
+sudo systemctl start postgresql-12
+```
+
+## Enable Remote Access
+1. Login as **postgree**
+```bash
+su - postgres
+```
+
+2. Enable client authentication
+```bash
+vi /var/lib/pgsql/12/data/pg_hba.conf
+```
+Add
+```bash
+host    all             all             ::/0                    trust
+```
+
+
 
