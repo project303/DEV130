@@ -39,5 +39,25 @@ Add
 host    all             all             ::/0                    trust
 ```
 
+3. Allow TCP/IP socket
+```bash
+vi /var/lib/pgsql/12/data/postgresql.conf
+```
+Add below configuration in **Connection Setting** section
+```bash
+listen_addresses = '*'
+```
+
+4. Back to **root*
+```bash
+exit
+```
+
+5. Restart PostgreSQL service
+```bash
+ systemctl restart postgresql-12
+```
+
+6. Connect PostgreSQL using SQL client on Window, for example DBeaver
 
 
