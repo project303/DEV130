@@ -134,6 +134,6 @@ http://<ip-addr>:8890/?token=5cf42f450e2fec9735d9280f0cd1aab9f446b64cccbfc507
 ``` 
 
 
-9. **Lets do the code and have fun** 
+9. **Lets code and have fun** 
 
 
