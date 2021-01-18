@@ -25,8 +25,8 @@ Assignment <br>
 <br>
 <br>
 
-### Chapter 3 - SQL Fundamental
-[Slide]()
+### Chapter 3 - SQL For Data Analytics
+[Slide]() <br>
 Labs <br>
 1. [Create Database and Table](https://github.com/project303/DEV303/blob/main/PostgreSQL%20-%20Create%20Database%20and%20Table.ipynb)
 2. [SQL Data Exploration](https://github.com/project303/DEV303/blob/main/PostgreSQL%20-%20SQL%20Data%20Exploration.ipynb)
