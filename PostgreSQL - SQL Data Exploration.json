@@ -1,0 +1,359 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "! whoami"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "! hostname"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "! pwd"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "! ip addr"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "! date"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Create Connection"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "%load_ext sql\n",
+    "%sql postgresql://yava:yava247@192.168.56.121/yava"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Select Statement"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**Get number of records**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "%%sql\n",
+    "select count(*) from hotel_reservation;"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**Sample record**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "%%sql\n",
+    "select * from hotel_reservation limit 10;"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "%%sql\n",
+    "select \n",
+    "\thotel hotel_type,\n",
+    "\treservation_status_date status_date,\n",
+    "\treservation_status,\n",
+    "\t(stays_in_weekend_nights + stays_in_week_nights) num_days,\n",
+    "\tcountry\n",
+    "from hotel_reservation limit 10;"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**Unique value of a column**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "%%sql\n",
+    "select distinct hotel from hotel_reservation ;"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**Basic column statistic**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "%%sql\n",
+    "select \n",
+    "\thotel  hotel_type,\n",
+    "\tcount(*) num_records,\n",
+    "\tmin(stays_in_week_nights) min_week_days,\n",
+    "\tmax(stays_in_week_nights) max_week_days,\n",
+    "\tavg(stays_in_week_nights) avg_week_days,\n",
+    "\tsum(stays_in_weekend_nights + stays_in_week_nights) total_days\n",
+    "from hotel_reservation \n",
+    "group by hotel;"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Filtering"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**Exploring reservation_status column**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "%%sql\n",
+    "select distinct(reservation_status) from hotel_reservation;"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "%%sql\n",
+    "select count(*) num_case\n",
+    "from hotel_reservation\n",
+    "where hotel = 'City Hotel' and reservation_status = 'Canceled'\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**Cancellation case on weekend**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "%%sql\n",
+    "select count(*) num_case\n",
+    "from hotel_reservation\n",
+    "where reservation_status = 'Canceled' and stays_in_weekend_nights > 0"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "%%sql\n",
+    "select \n",
+    "\thotel  hotel_type,\n",
+    "\treservation_status, \n",
+    "\tcount(*) num_case,\n",
+    "\tsum(stays_in_weekend_nights) weekend_days,\n",
+    "\tsum(stays_in_week_nights) week_days\n",
+    "from hotel_reservation \n",
+    "group by hotel, reservation_status\n",
+    "order by hotel asc, reservation_status asc ;"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**Null value in a column**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "%%sql\n",
+    "select \n",
+    "\tmin(length(country)) min_country_len,\n",
+    "\tmax(length(country)) max_country_len\n",
+    "from hotel_reservation;"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "%%sql\n",
+    "select distinct(country) from hotel_reservation;"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "%%sql\n",
+    "select count(*) from hotel_reservation where country is null;"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "%%sql\n",
+    "select * from hotel_reservation where country = null;"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "%%sql\n",
+    "select * from hotel_reservation where country is null;"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "%%sql\n",
+    "select \n",
+    "\tcountry,\n",
+    "\tCOALESCE(country, 'UNK') country_code\n",
+    "from hotel_reservation where country is null;"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "%%sql\n",
+    "select count(*) from hotel_reservation where arrival_date_week_number is null;"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "%%sql\n",
+    "select * from hotel_reservation where arrival_date_week_number is null;"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.1"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
