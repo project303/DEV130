@@ -6,6 +6,7 @@ Assignment <br>
 1. [Install CentOS7 on Oracle VirtualBox](https://github.com/project303/DEV303/blob/main/Install%20CentOS7.md) <br>
 2. [Install Jupyter Notebook](https://github.com/project303/DEV303/blob/main/Install%20Jupyter%20Notebook.md)
 
+
 ### Chapter 2 - Linux Basic
 [Slide](https://www.dropbox.com/s/hquqxj9oyrfcbbz/Chapter%2002%20-%20Linux%20Basic%201.0.2.pdf?dl=0) <br>
 Labs <br>
@@ -18,6 +19,7 @@ Assignment <br>
 1. [Assignment - Week 2](https://github.com/project303/DEV303/blob/main/Assignment%20-%20Week02.ipynb) <br>
 2. [Intall PostgreSQL](https://github.com/project303/DEV303/blob/main/Install%20PostgreSQL.md)<br>
 3. [PostgreSQL Integration with Jupyter Notebook](https://github.com/project303/DEV303/blob/main/PostgreSQL%20Integration%20with%20Jupyter%20Notebook.md)
+
 
 ### Chapter 3 - SQL Fundamental
 [Slide]()
