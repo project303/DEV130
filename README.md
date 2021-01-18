@@ -12,3 +12,5 @@
 4. [Bash Script](https://github.com/project303/DEV303/blob/main/Bash%20Script.ipynb)
 5. Assignment <br>
 [Assignment - Week 2](https://github.com/project303/DEV303/blob/main/Assignment%20-%20Week02.ipynb)
+[Intall PostgreSQL](https://github.com/project303/DEV303/blob/main/Install%20PostgreSQL.md)
+[PostgreSQL Integration with Jupyter Notebook](https://github.com/project303/DEV303/blob/main/PostgreSQL%20Integration%20with%20Jupyter%20Notebook.md)
