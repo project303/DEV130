@@ -30,15 +30,18 @@ Assignment <br>
 
 <br>
 <br>
+
 ### Chapter 4 - Data Visualization
 [Slide]()
 
 <br>
 <br>
+
 ### Chapter 5 - Python Programming
 [Slide]()
 
 <br>
 <br>
+
 ### Chapter 6 - Hadoop Ecosystem & Machine Learning
 [Slide]()
