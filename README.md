@@ -10,4 +10,5 @@
 2. [File Operation](https://github.com/project303/DEV303/blob/main/File%20Operation.ipynb)
 3. [Content Operation](https://github.com/project303/DEV303/blob/main/Content%20Operation.ipynb)
 4. [Bash Script](https://github.com/project303/DEV303/blob/main/Bash%20Script.ipynb)
-5. [Assignment](https://github.com/project303/DEV303/blob/main/Assignment%20-%20Week02.ipynb)
+5. Assignment <br>
+[Assignment - Week 2](https://github.com/project303/DEV303/blob/main/Assignment%20-%20Week02.ipynb)
