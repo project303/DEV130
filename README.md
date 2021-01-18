@@ -8,6 +8,7 @@ Assignment <br>
 
 <br>
 <br>
+
 ### Chapter 2 - Linux Basic
 [Slide](https://www.dropbox.com/s/hquqxj9oyrfcbbz/Chapter%2002%20-%20Linux%20Basic%201.0.2.pdf?dl=0) <br>
 Labs <br>
@@ -23,6 +24,7 @@ Assignment <br>
 
 <br>
 <br>
+
 ### Chapter 3 - SQL Fundamental
 [Slide]()
 
