@@ -27,6 +27,11 @@ Assignment <br>
 
 ### Chapter 3 - SQL Fundamental
 [Slide]()
+Labs <br>
+1. [Create Database and Table](https://github.com/project303/DEV303/blob/main/PostgreSQL%20-%20Create%20Database%20and%20Table.ipynb)
+2. [SQL Data Exploration](https://github.com/project303/DEV303/blob/main/PostgreSQL%20-%20SQL%20Data%20Exploration.ipynb)
+3. [SQL Column Transformation](https://github.com/project303/DEV303/blob/main/PostgreSQL%20-%20SQL%20Column%20Transformation.ipynb)
+4. [Left Join](https://github.com/project303/DEV303/blob/main/PostgreSQL%20-%20Left%20Join.ipynb)
 
 <br>
 <br>
