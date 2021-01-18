@@ -13,6 +13,7 @@ Labs <br>
 2. [File Operation](https://github.com/project303/DEV303/blob/main/File%20Operation.ipynb)
 3. [Content Operation](https://github.com/project303/DEV303/blob/main/Content%20Operation.ipynb)
 4. [Bash Script](https://github.com/project303/DEV303/blob/main/Bash%20Script.ipynb)
+
 Assignment <br>
 1. [Assignment - Week 2](https://github.com/project303/DEV303/blob/main/Assignment%20-%20Week02.ipynb) <br>
 2. [Intall PostgreSQL](https://github.com/project303/DEV303/blob/main/Install%20PostgreSQL.md)<br>
