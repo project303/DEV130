@@ -26,7 +26,7 @@ Assignment <br>
 <br>
 
 ### Chapter 3 - SQL For Data Analytics
-[Slide](https://www.dropbox.com/s/vxb9fqe925lv7g9/Module%2003%20-%20SQL%20For%20Data%20Analytics%201.0.0.pdf?dl=0) <br>
+[Slide](https://www.dropbox.com/s/unrj2fjyro07h0f/Module%2003%20-%20SQL%20For%20Data%20Analytics%201.0.0.pdf?dl=0) <br>
 Labs <br>
 1. [Create Database and Table](https://github.com/project303/DEV303/blob/main/PostgreSQL%20-%20Create%20Database%20and%20Table.ipynb)
 2. [SQL Data Exploration](https://github.com/project303/DEV303/blob/main/PostgreSQL%20-%20SQL%20Data%20Exploration.ipynb)
