@@ -37,7 +37,9 @@ Labs <br>
 <br>
 
 ### Chapter 4 - Data Visualization
-[Slide](https://www.dropbox.com/s/0nuv1s351gbitk7/Module%2004%20-%20Data%20Visualization.pdf?dl=0)
+[Slide](https://www.dropbox.com/s/0nuv1s351gbitk7/Module%2004%20-%20Data%20Visualization.pdf?dl=0) <br>
+Labs <br>
+1. Covid-19 Dashboard
 
 <br>
 <br>
