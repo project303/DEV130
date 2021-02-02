@@ -46,6 +46,11 @@ Labs <br>
 
 ### Chapter 5 - Python Programming
 [Slide]()
+Labs <br>
+1. [Working With Pandas](https://github.com/project303/DEV303/blob/main/Working-with-Pandas.ipynb)
+
+Assignment <br>
+1. [Assignment - Week 5](https://github.com/project303/DEV303/blob/main/Assignment%20-%20Week05.ipynb)
 
 <br>
 <br>
