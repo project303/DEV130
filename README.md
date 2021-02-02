@@ -45,7 +45,7 @@ Labs <br>
 <br>
 
 ### Chapter 5 - Python Programming
-[Slide]() <br>
+[Slide](https://www.dropbox.com/s/eg2qgiugu7bwfwy/Module%2005%20-%20Python%20Fundamental.pdf?dl=0) <br>
 Labs <br>
 1. [Basic Python in a Notebook](https://github.com/project303/DEV303/blob/main/Python_Basic_in_a_Notebook.ipynb) <br>
 2. [Working With Pandas](https://github.com/project303/DEV303/blob/main/Working-with-Pandas.ipynb)
