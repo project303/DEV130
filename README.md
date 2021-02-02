@@ -45,7 +45,7 @@ Labs <br>
 <br>
 
 ### Chapter 5 - Python Programming
-[Slide]()
+[Slide]() <br>
 Labs <br>
 1. [Working With Pandas](https://github.com/project303/DEV303/blob/main/Working-with-Pandas.ipynb)
 
