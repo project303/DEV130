@@ -56,5 +56,5 @@ Assignment <br>
 <br>
 <br>
 
-### Chapter 6 - Hadoop Ecosystem & Machine Learning
-[Slide]()
+### Chapter 6 - Big Data Ecosystem & Machine Learning
+[Slide](https://www.dropbox.com/s/7w916uyxmokgy0v/Module%2006%20-%20Big%20Data%20and%20Machine%20Learning.pdf?dl=0)
