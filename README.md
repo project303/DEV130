@@ -1,7 +1,7 @@
 # DEV303 - Big Data Analytics Fundamental
 
 ### Chapter 1 - Introduction to Big Data Analytics
-[Slide](https://www.dropbox.com/s/fz682p6y0rganke/Module%2001%20-%20Introduction%20to%20Data%20Analytics.pdf?dl=0) <br>
+[Slide](https://www.dropbox.com/s/8fle4gkjiozgpr3/Module%2001%20-%20Introduction%20to%20Data%20Analytics.pdf?dl=0) <br>
 Assignment <br>
 1. [Install CentOS7 on Oracle VirtualBox](https://github.com/project303/DEV303/blob/main/Install%20CentOS7.md) <br>
 2. [Install Jupyter Notebook](https://github.com/project303/DEV303/blob/main/Install%20Jupyter%20Notebook.md)
@@ -10,7 +10,7 @@ Assignment <br>
 <br>
 
 ### Chapter 2 - Linux Basic
-[Slide](https://www.dropbox.com/s/hxy612o9vmdv4xy/Module%2002%20-%20Linux%20Basic.pdf?dl=0) <br>
+[Slide](https://www.dropbox.com/s/vf5q3el4r1to9wy/Module%2002%20-%20Linux%20Basic.pdf?dl=0) <br>
 Labs <br>
 1. [OS and Machine Information](https://github.com/project303/DEV303/blob/main/OS%20and%20Machine%20Information.ipynb)
 2. [File Operation](https://github.com/project303/DEV303/blob/main/File%20Operation.ipynb)
@@ -26,7 +26,7 @@ Assignment <br>
 <br>
 
 ### Chapter 3 - SQL For Data Analytics
-[Slide](https://www.dropbox.com/s/rgbbbs37xcbvrdi/Module%2003%20-%20SQL%20For%20Data%20Analytics.pdf?dl=0) <br>
+[Slide](https://www.dropbox.com/s/n62vry6i8fzmj5t/Module%2003%20-%20SQL%20For%20Data%20Analytics.pdf?dl=0) <br>
 Labs <br>
 1. [Create Database and Table](https://github.com/project303/DEV303/blob/main/PostgreSQL%20-%20Create%20Database%20and%20Table.ipynb)
 2. [SQL Data Exploration](https://github.com/project303/DEV303/blob/main/PostgreSQL%20-%20SQL%20Data%20Exploration.ipynb)
