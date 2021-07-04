@@ -1,4 +1,4 @@
-# DEV303 - Big Data Analytics Fundamental
+# DEV130 - Big Data Analytics Fundamental
 
 ### Chapter 1 - Introduction to Big Data Analytics
 [Slide](https://www.dropbox.com/s/8fle4gkjiozgpr3/Module%2001%20-%20Introduction%20to%20Data%20Analytics.pdf?dl=0) <br>
