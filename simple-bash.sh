@@ -1,14 +1,15 @@
 #!/usr/bin/bash
 
-# USER_NAME="Bob"
+USER_NAME="Bob"
 # USER_NAME=$(whoami)
-USER_NAME=$1
+# USER_NAME=$1
 
 echo "Apa kabar ${USER_NAME}?"
 
-CURR_DATETIME=$(date +"%Y-%m-%d %H:%m:%S")
-echo "$CURR_DATETIME  Processing file"
+# CURR_DATETIME=$(date +"%Y-%m-%d %H:%m:%S")
+# echo "$CURR_DATETIME  Processing file"
 
+<<'###'
 for i in {1..5}
 do
    echo "1|2|3" > dataset-s0$i.csv
@@ -28,9 +29,10 @@ do
        echo  "3|5|6" >> dataset-s0$i.csv
    fi
 done
+###
 
 
-
+<<'###'
 for i in $(ls dataset-s*.csv)
 do
    line_number=`wc -l ${i} | awk -F' ' '{print $1}'`
@@ -38,3 +40,4 @@ do
 done
 
 echo "$(date +"%Y-%m-%d %H:%m:%S")  Processing done"
+###
