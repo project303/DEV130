@@ -1,0 +1,2095 @@
+﻿{
+  "paragraphs": [
+    {
+      "text": "%md\n## Gunakan database training",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T21:54:29+0700",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h2>Gunakan database training</h2>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631631225929_2126103230",
+      "id": "paragraph_1631631225929_2126103230",
+      "dateCreated": "2021-09-14T21:53:45+0700",
+      "dateStarted": "2021-09-14T21:54:29+0700",
+      "dateFinished": "2021-09-14T21:54:29+0700",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:58523"
+    },
+    {
+      "text": "USE training",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T22:08:50+0700",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Query executed successfully. Affected rows : 0\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631621291696_234809218",
+      "id": "paragraph_1631621291696_234809218",
+      "dateCreated": "2021-09-14T19:08:11+0700",
+      "dateStarted": "2021-09-14T19:09:22+0700",
+      "dateFinished": "2021-09-14T19:09:22+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58524"
+    },
+    {
+      "text": "%md\n\n### 1. Berapa jumlah record pada tabel **hotel_reservation** ? ###\n\n\nGunakan fungsi count untuk menampilkan jumlah record",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T22:22:04+0700",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>1. Berapa jumlah record pada tabel <strong>hotel_reservation</strong> ?</h3>\n<p>Gunakan fungsi count untuk menampilkan jumlah record</p>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631631438612_1728588943",
+      "id": "paragraph_1631631438612_1728588943",
+      "dateCreated": "2021-09-14T21:57:18+0700",
+      "dateStarted": "2021-09-14T22:22:04+0700",
+      "dateFinished": "2021-09-14T22:22:04+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58525"
+    },
+    {
+      "title": "",
+      "text": "SELECT ___ FROM hotel_reservation",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T22:09:00+0700",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "title": false,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "count(*)": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631621317102_867442618",
+      "id": "paragraph_1631621317102_867442618",
+      "dateCreated": "2021-09-14T19:08:37+0700",
+      "dateStarted": "2021-09-14T19:09:40+0700",
+      "dateFinished": "2021-09-14T19:09:40+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58526"
+    },
+    {
+      "text": "%md\n\n### 2. Tampilkan struktur dari table hotel_reservation ###\n\n\nFungsi **describe** dapat digunakan untuk menampilkan struktur aatau definisi dari sebuah atabel",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T22:22:10+0700",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>2. Tampilkan struktur dari table hotel_reservation</h3>\n<p>Fungsi <strong>describe</strong> dapat digunakan untuk menampilkan struktur aatau definisi dari sebuah atabel</p>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631631600717_1873235203",
+      "id": "paragraph_1631631600717_1873235203",
+      "dateCreated": "2021-09-14T22:00:00+0700",
+      "dateStarted": "2021-09-14T22:22:10+0700",
+      "dateFinished": "2021-09-14T22:22:10+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58527"
+    },
+    {
+      "text": "___ hotel_reservation",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T22:01:35+0700",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "Field": "string",
+                      "Type": "string",
+                      "Null": "string",
+                      "Key": "string",
+                      "Default": "string",
+                      "Extra": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631631396149_2096315628",
+      "id": "paragraph_1631631396149_2096315628",
+      "dateCreated": "2021-09-14T21:56:36+0700",
+      "dateStarted": "2021-09-14T21:57:01+0700",
+      "dateFinished": "2021-09-14T21:57:01+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58528"
+    },
+    {
+      "text": "%md\n\n### 3. Tampilkan 10 record dari table hotel_reservation",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T22:22:19+0700",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>3. Tampilkan 10 record dari table hotel_reservation</h3>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631631724229_9752111",
+      "id": "paragraph_1631631724229_9752111",
+      "dateCreated": "2021-09-14T22:02:04+0700",
+      "dateStarted": "2021-09-14T22:22:19+0700",
+      "dateFinished": "2021-09-14T22:22:19+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58529"
+    },
+    {
+      "text": "SELECT * FROM hotel_reservation ___ 10",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T22:09:23+0700",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "hotel": "string",
+                      "arrival_year": "string",
+                      "arrival_month": "string",
+                      "arrival_week": "string",
+                      "arrival_date": "string",
+                      "stays_in_weekend_nights": "string",
+                      "stays_in_week_nights": "string",
+                      "adults": "string",
+                      "children": "string",
+                      "babies": "string",
+                      "meal": "string",
+                      "country": "string",
+                      "reserved_room_type": "string",
+                      "assigned_room_type": "string",
+                      "deposit_type": "string",
+                      "reservation_status": "string",
+                      "reservation_status_date": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631621380450_145341025",
+      "id": "paragraph_1631621380450_145341025",
+      "dateCreated": "2021-09-14T19:09:40+0700",
+      "dateStarted": "2021-09-14T19:09:53+0700",
+      "dateFinished": "2021-09-14T19:09:53+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58530"
+    },
+    {
+      "text": "%md\n\n## Tipe Data Kategori",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T22:35:33+0700",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h2>Tipe Data Kategori</h2>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631631860651_1740216424",
+      "id": "paragraph_1631631860651_1740216424",
+      "dateCreated": "2021-09-14T22:04:20+0700",
+      "dateStarted": "2021-09-14T22:35:33+0700",
+      "dateFinished": "2021-09-14T22:35:33+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58531"
+    },
+    {
+      "text": "%md\n### 4.Tampilkan semua kolom dengan tipe: Nominal Category ###\n\nNominal Category adalah tipe data kategori yang tidak memiliki urutan atau level",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T22:30:52+0700",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>4.Tampilkan semua kolom dengan tipe: Nominal Category</h3>\n<p>Nominal Category adalah tipe data kategori yang tidak memiliki urutan atau level</p>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631633070105_1706745491",
+      "id": "paragraph_1631633070105_1706745491",
+      "dateCreated": "2021-09-14T22:24:30+0700",
+      "dateStarted": "2021-09-14T22:30:52+0700",
+      "dateFinished": "2021-09-14T22:30:52+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58532"
+    },
+    {
+      "text": "SELECT \n   hotel,\n   ___,\n   ___,\n   ___,\n   ___,\n   ___,\n   ___\nFROM hotel_reservation\nLIMIT 10",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T23:41:32+0700",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "hotel": "string",
+                      "meal": "string",
+                      "country": "string",
+                      "reserved_room_type": "string",
+                      "assigned_room_type": "string",
+                      "deposit_type": "string",
+                      "reservation_status": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631633031662_615113849",
+      "id": "paragraph_1631633031662_615113849",
+      "dateCreated": "2021-09-14T22:23:51+0700",
+      "dateStarted": "2021-09-14T22:29:39+0700",
+      "dateFinished": "2021-09-14T22:29:39+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58533"
+    },
+    {
+      "text": "%md\n\n### 5. Tampilkan semua nilai kategori pada kolom hotel ###\n\nUntuk menampilkan nilai unik pada sebuah kolom dapat menggunakan funsi **distinct**",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T22:31:02+0700",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>5. Tampilkan semua nilai kategori pada kolom hotel</h3>\n<p>Untuk menampilkan nilai unik pada sebuah kolom dapat menggunakan funsi <strong>distinct</strong></p>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631631887226_1437813081",
+      "id": "paragraph_1631631887226_1437813081",
+      "dateCreated": "2021-09-14T22:04:47+0700",
+      "dateStarted": "2021-09-14T22:31:02+0700",
+      "dateFinished": "2021-09-14T22:31:02+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58534"
+    },
+    {
+      "text": "SELECT ___(___)\nFROM hotel_reservation",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T22:10:23+0700",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "hotel": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631632099781_751562721",
+      "id": "paragraph_1631632099781_751562721",
+      "dateCreated": "2021-09-14T22:08:19+0700",
+      "dateStarted": "2021-09-14T22:10:07+0700",
+      "dateFinished": "2021-09-14T22:10:07+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58535"
+    },
+    {
+      "text": "%md\n\n### 6. Tampilkan setiap nilai pada kolom reservation_status beserta jumlah recordnya ###\n",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T22:31:11+0700",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>6. Tampilkan setiap nilai pada kolom reservation_status beserta jumlah recordnya</h3>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631632228352_1120741443",
+      "id": "paragraph_1631632228352_1120741443",
+      "dateCreated": "2021-09-14T22:10:28+0700",
+      "dateStarted": "2021-09-14T22:31:11+0700",
+      "dateFinished": "2021-09-14T22:31:11+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58536"
+    },
+    {
+      "text": "SELECT reservation_status,\n       ___\nFROM hotel_reservation\nGROUP BY ___",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T22:16:06+0700",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "reservation_status": "string",
+                      "count(*)": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                },
+                "multiBarChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                }
+              },
+              "commonSetting": {},
+              "keys": [
+                {
+                  "name": "reservation_status",
+                  "index": 0,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [],
+              "values": [
+                {
+                  "name": "count(*)",
+                  "index": 1,
+                  "aggr": "sum"
+                }
+              ]
+            },
+            "helium": {}
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631632437136_1821238661",
+      "id": "paragraph_1631632437136_1821238661",
+      "dateCreated": "2021-09-14T22:13:57+0700",
+      "dateStarted": "2021-09-14T22:15:25+0700",
+      "dateFinished": "2021-09-14T22:15:25+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58537"
+    },
+    {
+      "text": "%md\n\n### 7. Berapa jumlah negara yang ada pada tabel hotel_reservation ###\n\nKolom **country** merupakan kolom kode negara",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T22:31:18+0700",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>7. Berapa jumlah negara yang ada pada tabel hotel_reservation</h3>\n<p>Kolom <strong>country</strong> merupakan kolom kode negara</p>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631632672926_1012671094",
+      "id": "paragraph_1631632672926_1012671094",
+      "dateCreated": "2021-09-14T22:17:52+0700",
+      "dateStarted": "2021-09-14T22:31:18+0700",
+      "dateFinished": "2021-09-14T22:31:18+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58538"
+    },
+    {
+      "text": "SELECT ___ as num_country\nFROM\n(\n  SELECT ___ country\n  FROM hotel_reservation\n) list_country_code\n",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T22:21:26+0700",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "num_country": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631632743648_30006571",
+      "id": "paragraph_1631632743648_30006571",
+      "dateCreated": "2021-09-14T22:19:03+0700",
+      "dateStarted": "2021-09-14T22:20:51+0700",
+      "dateFinished": "2021-09-14T22:20:51+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58539"
+    },
+    {
+      "text": "%md\n\n### 8.Tampilkan nilai maksimum dan minimum dati arrival_year ### ",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T22:58:37+0700",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>8.Tampilkan nilai maksimum dan minimum dati arrival_year</h3>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631635080183_955073164",
+      "id": "paragraph_1631635080183_955073164",
+      "dateCreated": "2021-09-14T22:58:00+0700",
+      "dateStarted": "2021-09-14T22:58:37+0700",
+      "dateFinished": "2021-09-14T22:58:37+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58540"
+    },
+    {
+      "text": "SELECT max(___),\n       min(___)\nFROM hotel_reservation",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T22:58:51+0700",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "max(arrival_year)": "string",
+                      "min(arrival_year)": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631634986080_1152176027",
+      "id": "paragraph_1631634986080_1152176027",
+      "dateCreated": "2021-09-14T22:56:26+0700",
+      "dateStarted": "2021-09-14T22:57:29+0700",
+      "dateFinished": "2021-09-14T22:57:29+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58541"
+    },
+    {
+      "text": "%md\n### 9.Tampilkan nilai dari kolom reservation_status beserta jumlah recordnya",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T23:36:34+0700",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>9.Tampilkan nilai dari kolom reservation_status beserta jumlah recordnya</h3>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631637355355_106452242",
+      "id": "paragraph_1631637355355_106452242",
+      "dateCreated": "2021-09-14T23:35:55+0700",
+      "dateStarted": "2021-09-14T23:36:34+0700",
+      "dateFinished": "2021-09-14T23:36:34+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58542"
+    },
+    {
+      "text": "SELECT ___\n       ___\nFROM ___\n___ __ ___",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T23:37:23+0700",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631637379019_113836783",
+      "id": "paragraph_1631637379019_113836783",
+      "dateCreated": "2021-09-14T23:36:19+0700",
+      "status": "READY",
+      "$$hashKey": "object:58543"
+    },
+    {
+      "text": "%md\n\n## Tipe Data Continues dan Discrete",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T22:36:00+0700",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h2>Tipe Data Continues dan Discrete</h2>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631633721789_693648919",
+      "id": "paragraph_1631633721789_693648919",
+      "dateCreated": "2021-09-14T22:35:21+0700",
+      "dateStarted": "2021-09-14T22:36:00+0700",
+      "dateFinished": "2021-09-14T22:36:00+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58544"
+    },
+    {
+      "text": "%md\n\n### 10.Tampilkan nilai maksimum, minimum, rata-rata dan standar deviasi untuk kolom stays_in_week_nights ###\n\n\n**stays_in_week_nights** adalah lama menginap untuk hari kerja (dalam hari)",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T23:37:28+0700",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>10.Tampilkan nilai maksimum, minimum, rata-rata dan standar deviasi untuk kolom stays_in_week_nights</h3>\n<p><strong>stays_in_week_nights</strong> adalah lama menginap untuk hari kerja (dalam hari)</p>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631633763316_1182716869",
+      "id": "paragraph_1631633763316_1182716869",
+      "dateCreated": "2021-09-14T22:36:03+0700",
+      "dateStarted": "2021-09-14T23:37:28+0700",
+      "dateFinished": "2021-09-14T23:37:28+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58545"
+    },
+    {
+      "text": "SELECT max(stays_in_week_nights),\n       avg(stays_in_week_nights),\n       min(stays_in_week_nights),\n       stddev(stays_in_week_nights)\nFROM hotel_reservation",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T22:41:32+0700",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "max(stays_in_week_nights)": "string",
+                      "avg(stays_in_week_nights)": "string",
+                      "min(stays_in_week_nights)": "string",
+                      "stddev(stays_in_week_nights)": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631634017450_1784777991",
+      "id": "paragraph_1631634017450_1784777991",
+      "dateCreated": "2021-09-14T22:40:17+0700",
+      "dateStarted": "2021-09-14T22:41:31+0700",
+      "dateFinished": "2021-09-14T22:41:31+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58546"
+    },
+    {
+      "text": "%md\n### 11.Tampilkan distribusi kolom stays_in_week_nights ###\n\nDistribusi nilai adalah jumlah record untuk setiap nilai",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T23:37:37+0700",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>11.Tampilkan distribusi kolom stays_in_week_nights</h3>\n<p>Distribusi nilai adalah jumlah record untuk setiap nilai</p>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631634140074_635019492",
+      "id": "paragraph_1631634140074_635019492",
+      "dateCreated": "2021-09-14T22:42:20+0700",
+      "dateStarted": "2021-09-14T23:37:37+0700",
+      "dateFinished": "2021-09-14T23:37:37+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58547"
+    },
+    {
+      "text": "SELECT stays_in_week_nights,\n       ___\nFROM hotel_reservation\nGROUP BY ___\nORDER BY ___ ASC\n",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T22:47:23+0700",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "stays_in_week_nights": "string",
+                      "count(*)": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                },
+                "multiBarChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                },
+                "stackedAreaChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                }
+              },
+              "commonSetting": {},
+              "keys": [
+                {
+                  "name": "stays_in_week_nights",
+                  "index": 0,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [],
+              "values": [
+                {
+                  "name": "count(*)",
+                  "index": 1,
+                  "aggr": "sum"
+                }
+              ]
+            },
+            "helium": {}
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631634252187_4134668",
+      "id": "paragraph_1631634252187_4134668",
+      "dateCreated": "2021-09-14T22:44:12+0700",
+      "dateStarted": "2021-09-14T22:45:16+0700",
+      "dateFinished": "2021-09-14T22:45:16+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58548"
+    },
+    {
+      "text": "%md\n### 12.Tampilkan nilai nilai maksimum, minimum, rata-rata dan standar deviasi untuk kolom stays_in_week_nights dikelompokkan berdasarkan hotel\n",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T23:37:43+0700",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>12.Tampilkan nilai nilai maksimum, minimum, rata-rata dan standar deviasi untuk kolom stays_in_week_nights dikelompokkan berdasarkan hotel</h3>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631634508900_1024299592",
+      "id": "paragraph_1631634508900_1024299592",
+      "dateCreated": "2021-09-14T22:48:28+0700",
+      "dateStarted": "2021-09-14T23:37:43+0700",
+      "dateFinished": "2021-09-14T23:37:43+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58549"
+    },
+    {
+      "text": "SELECT ___\n       ___\n       ___\n       ___\n       ___\nFROM hotel_reservation\nGROUP BY ___",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T22:51:26+0700",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631634607302_322474155",
+      "id": "paragraph_1631634607302_322474155",
+      "dateCreated": "2021-09-14T22:50:07+0700",
+      "status": "READY",
+      "$$hashKey": "object:58550"
+    },
+    {
+      "text": "%md\n### 13.Berapa maksimum dan minumum total menginap, baik weekend dan weekdays",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T23:37:48+0700",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>13.Berapa maksimum dan minumum total menginap, baik weekend dan weekdays</h3>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631635389148_726591445",
+      "id": "paragraph_1631635389148_726591445",
+      "dateCreated": "2021-09-14T23:03:09+0700",
+      "dateStarted": "2021-09-14T23:37:48+0700",
+      "dateFinished": "2021-09-14T23:37:48+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58551"
+    },
+    {
+      "text": "SELECT max(___ + ___) max_nights,\n       min(___ + ___) min_nights\nFROM hotel_reservation",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T23:09:39+0700",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "max_nights": "string",
+                      "min_nights": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631635434917_475554437",
+      "id": "paragraph_1631635434917_475554437",
+      "dateCreated": "2021-09-14T23:03:54+0700",
+      "dateStarted": "2021-09-14T23:05:20+0700",
+      "dateFinished": "2021-09-14T23:05:20+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58552"
+    },
+    {
+      "text": "%md\n\n### 14.Tampilkan data yang memiliki total lama menginap adalah 0",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T23:37:54+0700",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>14.Tampilkan data yang memiliki total lama menginap adalah 0</h3>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631635804108_1409985195",
+      "id": "paragraph_1631635804108_1409985195",
+      "dateCreated": "2021-09-14T23:10:04+0700",
+      "dateStarted": "2021-09-14T23:37:54+0700",
+      "dateFinished": "2021-09-14T23:37:54+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58553"
+    },
+    {
+      "text": "SELECT  * \nFROM hotel_reservation\nWHERE ___ + ___ < 1",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T23:11:07+0700",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "hotel": "string",
+                      "arrival_year": "string",
+                      "arrival_month": "string",
+                      "arrival_week": "string",
+                      "arrival_date": "string",
+                      "stays_in_weekend_nights": "string",
+                      "stays_in_week_nights": "string",
+                      "adults": "string",
+                      "children": "string",
+                      "babies": "string",
+                      "meal": "string",
+                      "country": "string",
+                      "reserved_room_type": "string",
+                      "assigned_room_type": "string",
+                      "deposit_type": "string",
+                      "reservation_status": "string",
+                      "reservation_status_date": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631635541549_1545627699",
+      "id": "paragraph_1631635541549_1545627699",
+      "dateCreated": "2021-09-14T23:05:41+0700",
+      "dateStarted": "2021-09-14T23:06:20+0700",
+      "dateFinished": "2021-09-14T23:06:20+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58554"
+    },
+    {
+      "user": "yava",
+      "progress": 0,
+      "config": {
+        "colWidth": 12,
+        "fontSize": 9,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {}
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631635373880_787259885",
+      "id": "paragraph_1631635373880_787259885",
+      "dateCreated": "2021-09-14T23:02:53+0700",
+      "status": "READY",
+      "$$hashKey": "object:58555"
+    },
+    {
+      "text": "%md\n## Missing Value",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T23:20:29+0700",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h2>Missing Value</h2>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631636410809_1446861144",
+      "id": "paragraph_1631636410809_1446861144",
+      "dateCreated": "2021-09-14T23:20:10+0700",
+      "dateStarted": "2021-09-14T23:20:29+0700",
+      "dateFinished": "2021-09-14T23:20:29+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58556"
+    },
+    {
+      "text": "%md\n### 15.Tampilkan minimum dan maksimum panjang nilai dari kolom country ###\n\nUntuk menghitung panjang string dapat menggunakan fungsi **length**",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T23:38:43+0700",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>15.Tampilkan minimum dan maksimum panjang nilai dari kolom country</h3>\n<p>Untuk menghitung panjang string dapat menggunakan fungsi <strong>length</strong></p>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631636438044_871056826",
+      "id": "paragraph_1631636438044_871056826",
+      "dateCreated": "2021-09-14T23:20:38+0700",
+      "dateStarted": "2021-09-14T23:38:43+0700",
+      "dateFinished": "2021-09-14T23:38:43+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58557"
+    },
+    {
+      "title": "",
+      "text": "SELECT \n\tmin( ___ ( ___ )) min_country_len,\n\tmax( ___ ( ___ )) max_country_len\nFROM hotel_reservation",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T23:27:33+0700",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "title": false,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "min_country_len": "string",
+                      "max_country_len": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631621851544_97367635",
+      "id": "paragraph_1631621851544_97367635",
+      "dateCreated": "2021-09-14T19:17:31+0700",
+      "dateStarted": "2021-09-14T23:18:20+0700",
+      "dateFinished": "2021-09-14T23:18:20+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58558"
+    },
+    {
+      "text": "%md\n### 16.Tampilkan record yang memiliki panjang country = 0 ###",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T23:38:52+0700",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>16.Tampilkan record yang memiliki panjang country = 0</h3>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631636866254_186158019",
+      "id": "paragraph_1631636866254_186158019",
+      "dateCreated": "2021-09-14T23:27:46+0700",
+      "dateStarted": "2021-09-14T23:38:52+0700",
+      "dateFinished": "2021-09-14T23:38:52+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58559"
+    },
+    {
+      "text": "SELECT * \nFROM hotel_reservation\nwhere ___(___) _ _",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T23:29:02+0700",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "hotel": "string",
+                      "arrival_year": "string",
+                      "arrival_month": "string",
+                      "arrival_week": "string",
+                      "arrival_date": "string",
+                      "stays_in_weekend_nights": "string",
+                      "stays_in_week_nights": "string",
+                      "adults": "string",
+                      "children": "string",
+                      "babies": "string",
+                      "meal": "string",
+                      "country": "string",
+                      "reserved_room_type": "string",
+                      "assigned_room_type": "string",
+                      "deposit_type": "string",
+                      "reservation_status": "string",
+                      "reservation_status_date": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631636335321_1095172702",
+      "id": "paragraph_1631636335321_1095172702",
+      "dateCreated": "2021-09-14T23:18:55+0700",
+      "dateStarted": "2021-09-14T23:19:16+0700",
+      "dateFinished": "2021-09-14T23:19:16+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58560"
+    },
+    {
+      "text": "%md\n### 17.Tampilkan semua record yang memiliki kolom country bernilai NULL",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T23:39:02+0700",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>17.Tampilkan semua record yang memiliki kolom country bernilai NULL</h3>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631637182443_651713434",
+      "id": "paragraph_1631637182443_651713434",
+      "dateCreated": "2021-09-14T23:33:02+0700",
+      "dateStarted": "2021-09-14T23:39:02+0700",
+      "dateFinished": "2021-09-14T23:39:02+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58561"
+    },
+    {
+      "text": "select count(*) \nFROM hotel_reservation \nWHERE ___ __ ___",
+      "user": "yava",
+      "dateUpdated": "2021-09-14T23:34:29+0700",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "count(*)": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631637142915_367424971",
+      "id": "paragraph_1631637142915_367424971",
+      "dateCreated": "2021-09-14T23:32:22+0700",
+      "dateStarted": "2021-09-14T23:32:57+0700",
+      "dateFinished": "2021-09-14T23:32:57+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:58562"
+    },
+    {
+      "user": "yava",
+      "progress": 0,
+      "config": {
+        "colWidth": 12,
+        "fontSize": 9,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631622071619_2055113016",
+      "id": "paragraph_1631622071619_2055113016",
+      "dateCreated": "2021-09-14T19:21:11+0700",
+      "status": "READY",
+      "$$hashKey": "object:58563"
+    }
+  ],
+  "name": "MySQL - SQL Data Exploration",
+  "id": "2GGDCB55C",
+  "defaultInterpreterGroup": "mysql",
+  "version": "0.9.0",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": true,
+    "looknfeel": "default",
+    "personalizedMode": "false"
+  },
+  "info": {},
+  "path": "/MySQL - SQL Data Exploration"
+}
