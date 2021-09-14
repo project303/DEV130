@@ -1,0 +1,692 @@
+﻿{
+  "paragraphs": [
+    {
+      "text": "%md\n## Gunakan database training",
+      "user": "yava",
+      "dateUpdated": "2021-09-15T01:31:16+0700",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h2>Gunakan database training</h2>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631644265200_2018481971",
+      "id": "paragraph_1631644265200_2018481971",
+      "dateCreated": "2021-09-15T01:31:05+0700",
+      "dateStarted": "2021-09-15T01:31:16+0700",
+      "dateFinished": "2021-09-15T01:31:18+0700",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:10043"
+    },
+    {
+      "text": "USE training",
+      "user": "yava",
+      "dateUpdated": "2021-09-15T01:31:30+0700",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Query executed successfully. Affected rows : 0\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631644276620_40842019",
+      "id": "paragraph_1631644276620_40842019",
+      "dateCreated": "2021-09-15T01:31:16+0700",
+      "dateStarted": "2021-09-15T01:31:30+0700",
+      "dateFinished": "2021-09-15T01:31:31+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:10044"
+    },
+    {
+      "text": "%md\n\n### Tampilkan semua nama tabel pada database training",
+      "user": "yava",
+      "dateUpdated": "2021-09-15T01:33:29+0700",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>Tampilkan semua nama tabel pada database training</h3>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631644363351_1425679166",
+      "id": "paragraph_1631644363351_1425679166",
+      "dateCreated": "2021-09-15T01:32:43+0700",
+      "dateStarted": "2021-09-15T01:33:29+0700",
+      "dateFinished": "2021-09-15T01:33:29+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:10045"
+    },
+    {
+      "text": "-- \n",
+      "user": "yava",
+      "dateUpdated": "2021-09-15T01:33:43+0700",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631644412907_1932014584",
+      "id": "paragraph_1631644412907_1932014584",
+      "dateCreated": "2021-09-15T01:33:32+0700",
+      "status": "READY",
+      "$$hashKey": "object:10046"
+    },
+    {
+      "text": "%md\n\n### Tampilkan 10 records dari tabel hotel_reservation",
+      "user": "yava",
+      "dateUpdated": "2021-09-15T01:32:36+0700",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>Tampilkan 10 records dari tabel hotel_reservation</h3>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631644317235_925409363",
+      "id": "paragraph_1631644317235_925409363",
+      "dateCreated": "2021-09-15T01:31:57+0700",
+      "dateStarted": "2021-09-15T01:32:36+0700",
+      "dateFinished": "2021-09-15T01:32:36+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:10047"
+    },
+    {
+      "text": "--\n",
+      "user": "yava",
+      "dateUpdated": "2021-09-15T01:33:48+0700",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631644290334_148576490",
+      "id": "paragraph_1631644290334_148576490",
+      "dateCreated": "2021-09-15T01:31:30+0700",
+      "status": "READY",
+      "$$hashKey": "object:10048"
+    },
+    {
+      "text": "%md\n### Tampilkan semua nilai pada kolom arrival_month",
+      "user": "yava",
+      "dateUpdated": "2021-09-15T01:35:26+0700",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>Tampilkan semua nilai pada kolom arrival_month</h3>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631644500540_512726114",
+      "id": "paragraph_1631644500540_512726114",
+      "dateCreated": "2021-09-15T01:35:00+0700",
+      "dateStarted": "2021-09-15T01:35:26+0700",
+      "dateFinished": "2021-09-15T01:35:26+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:10049"
+    },
+    {
+      "text": "--\n",
+      "user": "yava",
+      "dateUpdated": "2021-09-15T01:35:53+0700",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "arrival_month": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631644452079_559694466",
+      "id": "paragraph_1631644452079_559694466",
+      "dateCreated": "2021-09-15T01:34:12+0700",
+      "dateStarted": "2021-09-15T01:34:22+0700",
+      "dateFinished": "2021-09-15T01:34:22+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:10050"
+    },
+    {
+      "text": "%md\n### Tambahkan kolom baru yang diberinama arrival_date_full, dengan format YYYYMMDD\n\nhints:\n- CAST --> untuk merubah format data\n- CONCAT --> untuk menggabungkan string\n- LPAD --> memberikan left padding pada suatu string",
+      "user": "yava",
+      "dateUpdated": "2021-09-15T01:53:17+0700",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>Tambahkan kolom baru yang diberinama arrival_date_full, dengan format YYYYMMDD</h3>\n<p>hints:</p>\n<ul>\n<li>CAST &ndash;&gt; untuk merubah format data</li>\n<li>CONCAT &ndash;&gt; untuk menggabungkan string</li>\n<li>LPAD &ndash;&gt; memberikan left padding pada suatu string</li>\n</ul>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631644613404_203082315",
+      "id": "paragraph_1631644613404_203082315",
+      "dateCreated": "2021-09-15T01:36:53+0700",
+      "dateStarted": "2021-09-15T01:53:17+0700",
+      "dateFinished": "2021-09-15T01:53:17+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:10051"
+    },
+    {
+      "text": "--\nSELECT\n\t___\nFROM hotel_reservation\nLIMIT 10",
+      "user": "yava",
+      "dateUpdated": "2021-09-15T01:44:32+0700",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "arrival_date_full": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631644827492_1773161810",
+      "id": "paragraph_1631644827492_1773161810",
+      "dateCreated": "2021-09-15T01:40:27+0700",
+      "dateStarted": "2021-09-15T01:43:07+0700",
+      "dateFinished": "2021-09-15T01:43:07+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:10052"
+    },
+    {
+      "text": "%md\n### Rubah tipe reservation_status_date menjadi tipe date\n\nhints:\n- STR_TO_DATE --> merubah tipe string ke dalam date",
+      "user": "yava",
+      "dateUpdated": "2021-09-15T01:53:10+0700",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>Rubah tipe reservation_status_date menjadi tipe date</h3>\n<p>hints:</p>\n<ul>\n<li>STR_TO_DATE &ndash;&gt; merubah tipe string ke dalam date</li>\n</ul>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631645072750_1746756988",
+      "id": "paragraph_1631645072750_1746756988",
+      "dateCreated": "2021-09-15T01:44:32+0700",
+      "dateStarted": "2021-09-15T01:53:10+0700",
+      "dateFinished": "2021-09-15T01:53:10+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:10053"
+    },
+    {
+      "text": "--\nSELECT\n\treservation_status_date,\n\t___\nFROM hotel_reservation\nLIMIT 10;",
+      "user": "yava",
+      "dateUpdated": "2021-09-15T01:53:46+0700",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "reservation_status_date": "string",
+                      "STR_TO_DATE(reservation_status_date, \"%d/%m/%Y\")": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631645180532_2087215378",
+      "id": "paragraph_1631645180532_2087215378",
+      "dateCreated": "2021-09-15T01:46:20+0700",
+      "dateStarted": "2021-09-15T01:51:33+0700",
+      "dateFinished": "2021-09-15T01:51:33+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:10054"
+    },
+    {
+      "text": "%md\n\n### Tambahkan kolom baru bernama room_status\n\n\ndengan aturan sebagai berikut:\njika reserved_room_type > assigned_room_type maka set to 0 (downgrade)\njika reserved_room_type = assigned_room_type maka set to 1 (normal)\njika reserved_room_type < assigned_room_type maka set to 2 (upgrade)\n\n",
+      "user": "yava",
+      "dateUpdated": "2021-09-15T01:55:29+0700",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>Tambahkan kolom baru bernama room_status</h3>\n<p>dengan aturan sebagai berikut:<br />\njika reserved_room_type &gt; assigned_room_type maka set to 0 (downgrade)<br />\njika reserved_room_type = assigned_room_type maka set to 1 (normal)<br />\njika reserved_room_type &lt; assigned_room_type maka set to 2 (upgrade)</p>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631645626641_785228579",
+      "id": "paragraph_1631645626641_785228579",
+      "dateCreated": "2021-09-15T01:53:46+0700",
+      "dateStarted": "2021-09-15T01:55:29+0700",
+      "dateFinished": "2021-09-15T01:55:29+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:10055"
+    },
+    {
+      "text": "--\nselect \n    reserved_room_type,\n\tassigned_room_type,\n\tCASE __\n\t     __\n\t     __\n   \tEND room_status\nfrom hotel_reservation\nlimit 10;",
+      "user": "yava",
+      "dateUpdated": "2021-09-15T01:56:32+0700",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "reserved_room_type": "string",
+                      "assigned_room_type": "string",
+                      "room_status": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631645732163_991848381",
+      "id": "paragraph_1631645732163_991848381",
+      "dateCreated": "2021-09-15T01:55:32+0700",
+      "dateStarted": "2021-09-15T01:55:52+0700",
+      "dateFinished": "2021-09-15T01:55:52+0700",
+      "status": "FINISHED",
+      "$$hashKey": "object:10056"
+    },
+    {
+      "user": "yava",
+      "progress": 0,
+      "config": {
+        "colWidth": 12,
+        "fontSize": 9,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1631644600431_1040529272",
+      "id": "paragraph_1631644600431_1040529272",
+      "dateCreated": "2021-09-15T01:36:40+0700",
+      "status": "READY",
+      "$$hashKey": "object:10057"
+    }
+  ],
+  "name": "MySQL - SQL Column Transformation",
+  "id": "2GHUGK8FD",
+  "defaultInterpreterGroup": "mysql",
+  "version": "0.9.0",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": true,
+    "looknfeel": "default",
+    "personalizedMode": "false"
+  },
+  "info": {},
+  "path": "/MySQL - SQL Column Transformation"
+}
