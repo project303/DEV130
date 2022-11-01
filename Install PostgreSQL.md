@@ -34,7 +34,7 @@ su - postgres
 ```bash
 vi /var/lib/pgsql/12/data/pg_hba.conf
 ```
-Add network segment as trusted, for example **10.1.1.0/24**
+Add network segment as trusted, for example yout ip address 10.1.1.50, then the segment **10.1.1.0/24**
 ```bash
 host    all             all             10.1.1.0/24                trust
 ```
