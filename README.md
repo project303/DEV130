@@ -12,8 +12,8 @@ Assignment <br>
 ### Chapter 2 - Linux Basic
 [Slide](https://www.dropbox.com/s/vf5q3el4r1to9wy/Module%2002%20-%20Linux%20Basic.pdf?dl=0) <br>
 Labs <br>
-1. [OS and Machine Information](https://github.com/project303/DEV303/blob/main/OS%20and%20Machine%20Information.ipynb)
-2. [File Operation](https://github.com/project303/DEV303/blob/main/File%20Operation.ipynb)
+1. [Get The Machine Information](https://github.com/project303/DEV130/blob/main/Get%20The%20Machine%20Information.ipynb)
+2. [File Operation](https://github.com/project303/DEV130/blob/main/File%20Operation.ipynb)
 3. [Content Operation](https://github.com/project303/DEV303/blob/main/Content%20Operation.ipynb)
 4. [Bash Script](https://github.com/project303/DEV303/blob/main/Bash%20Script.ipynb)
 
