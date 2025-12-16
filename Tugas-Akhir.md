@@ -17,9 +17,9 @@
      - Lakukan evaluasi model.
 4. Tugas dikerjakan secara kelompok (sesuai dengan list yang telah diberikan oleh ketua kelas)
 5. Buat video presentasi 10 - 15 menit dan upload ke Youtube. dengan ketentuan
-   - Judul: **Big Data Analytics: [Analisis ..]**
+   - Judul: **Big Data Analytics: [*Analisis ..*]**
    - Bagian Analisis disesuaikan dengan materi
-
-Deskripsi berisi penjelasan singkat ttg proyek akhir, nama kelompok, kelas dan anggota kelompok
-
-Cantumkan hashtag: #datalearns247 #belajarbigdata #ngulikbigdata
+   - Deskripsi berisi penjelasan singkat ttg proyek akhir, nama kelompok, kelas dan anggota kelompok
+   - Cantumkan hashtag: #datalearns247 #belajarbigdata #ngulikbigdata
+6. Video diupload ke **channel masing-masing** paling **lambat 3 Januari 2026**
+7. Semua materi tugas: notebook, data source dan materi presentasi diupload ke Google Drive masing-masing dalam **folder Tugas Akhir**
