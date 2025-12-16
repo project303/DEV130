@@ -21,5 +21,5 @@
    - Bagian Analisis disesuaikan dengan materi
    - Deskripsi berisi penjelasan singkat ttg proyek akhir, nama kelompok, kelas dan anggota kelompok
    - Cantumkan hashtag: #datalearns247 #belajarbigdata #ngulikbigdata
-6. Video diupload ke **channel masing-masing** paling **lambat 3 Januari 2026**
+6. Video diupload ke **channel youtube masing-masing** paling **lambat 3 Januari 2026**
 7. Semua materi tugas: notebook, data source dan materi presentasi diupload ke Google Drive masing-masing dalam **folder Tugas Akhir**
