@@ -23,3 +23,4 @@
    - Cantumkan hashtag: #datalearns247 #belajarbigdata #ngulikbigdata
 6. Video diupload ke **channel youtube masing-masing** paling **lambat 3 Januari 2026**
 7. Semua materi tugas: notebook, data source dan materi presentasi diupload ke Google Drive masing-masing dalam **folder Tugas Akhir**
+8. Melengkapi form berikut: [Form Tugas Akhir](https://docs.google.com/forms/d/e/1FAIpQLSdgy2wojCXZxU8_V9GYlj9MxRp0mbd2sHuMzuYagUSq9FOrfg/viewform)
