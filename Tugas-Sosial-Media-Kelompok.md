@@ -13,6 +13,6 @@
    - mentag akun @datalearns247 **(bukan kolaborasi)**
 5. Contoh postingan
    - https://www.instagram.com/p/Cf_aQ6GLHJY/?igshid=NjZiM2M3MzIxNA==
-6. Postingan paling lambat dipublish Senin, 9 Juni 2025 (sesuai pada tanggal postingan pada IG)
+6. Postingan paling lambat dipublish **3 Januari 2026** (sesuai pada tanggal postingan pada IG)
 7. Melengkapi form berikut sebagai bukti telah memposting:
    [Form Sosial Media](https://docs.google.com/forms/d/1iZ9T59BOxkLNd65tkA8MiGysd_IOfl9Dl_IMRTqAd4s/viewform)
