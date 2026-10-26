@@ -44,11 +44,20 @@ Daftar Dimensi:
 - dim_................... (Dimensi kalender statis)
 - Degenerate Dimensions: ................... dan ...................
 
-## Step 4: Identify the Facts
-- Tentukan metrik/measures beserta sifat aditivitasnya (Additive / Non-Additive):
-  - quantity → (Additive / Non-Additive)
-  - gross_amount → Formula: ................... (Additive / Non-Additive)
-  - discount_amount → (Additive / Non-Additive)
-  - net_amount → Formula: ................... (Additive / Non-Additive)
-  - cogs_amount → Formula: ................... (Additive / Non-Additive)
-  - gross_profit → Formula: ................... (Additive / Non-Additive)
+- **Step 4: Identify the Facts**
+  - Tentukan metrik/measures beserta sifat aditivitasnya (Additive / Non-Additive):
+    - quantity → (Additive / Non-Additive)
+    - gross_amount → Formula: ................... (Additive / Non-Additive)
+    - discount_amount → (Additive / Non-Additive)
+    - net_amount → Formula: ................... (Additive / Non-Additive)
+    - cogs_amount → Formula: ................... (Additive / Non-Additive)
+    - gross_profit → Formula: ................... (Additive / Non-Additive)
+   
+### TASK 2: Susun Kimball Enterprise Bus Matrix
+Lengkapi matriks di bawah ini dengan memberikan tanda [X] pada hubungan antara Proses Bisnis dan Tabel Dimensi terkait:
+
+### TASK 3: Skrip DDL SQL (Implementation)
+Tuliskan skrip SQL terstruktur untuk:
+1. dim_patient dengan kolom kontrol SCD Type 2 (effective_date, expiration_date, is_current).
+2. fact_prescriptions dengan seluruh relasi Foreign Key ke tabel dimensi.
+3. obt_prescriptions (One Big Table View) yang menggabungkan fact table dan seluruh dimensi aktif.
