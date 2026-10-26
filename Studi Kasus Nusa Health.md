@@ -44,3 +44,11 @@ Daftar Dimensi:
 - dim_................... (Dimensi kalender statis)
 - Degenerate Dimensions: ................... dan ...................
 
+## Step 4: Identify the Facts
+- Tentukan metrik/measures beserta sifat aditivitasnya (Additive / Non-Additive):
+  - quantity → (Additive / Non-Additive)
+  - gross_amount → Formula: ................... (Additive / Non-Additive)
+  - discount_amount → (Additive / Non-Additive)
+  - net_amount → Formula: ................... (Additive / Non-Additive)
+  - cogs_amount → Formula: ................... (Additive / Non-Additive)
+  - gross_profit → Formula: ................... (Additive / Non-Additive)
