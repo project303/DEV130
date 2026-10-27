@@ -46,12 +46,19 @@ Peserta diberikan 7 tabel sumber dari database OLTP NusaHealth:
 - raw_prescriptions (prescription_id, patient_id, doctor_id, branch_id, provider_id, transaction_timestamp)
 - raw_prescription_items (item_id, prescription_id, medicine_id, quantity, unit_price, discount_amount)
 
-Keterangan
+**Keterangan**
 - raw_medicines.unit_cost : harga pokok obat per satuan
 - raw_medicines.unit_price : harga jual obat per satuan
 - raw_prescription_items.quantity : jumlah obat yang diresepkan
 - raw_prescription_items.unit_price : harga obat per satuan
 - raw_prescription_items.discount_amount : total potongan harga
+
+**Perhitungan Dasar KPI**
+Perhitungan KPI menggunakan data transaksi obat yang diresepkan
+- Gross Amount = quantity x unit_price
+- Net Amount = gross_amount - discount_amount
+- COGS Amount (HPP) = quantity X unit_cost
+- Gross Profit = net_amount - cogs_amount
 
 ## 3. TUGAS PARTICIPANT (LAB TASKS)
 ### TUGAS 1: Buat ER Diagram dari ke 7 dataset. 
