@@ -63,7 +63,7 @@ Perhitungan KPI menggunakan data transaksi obat yang diresepkan
 
 ## 3. TUGAS PARTICIPANT (LAB TASKS)
 ### TUGAS 1: Buat ER Diagram dari ke 7 dataset. 
-Gunakan CREATE TABLE statement pada notebook ini sebagai referensi. Gambar dapat menggunakan **drawdb.app** atau program lain yang sejenis 
+Gunakan CREATE TABLE statement pada notebook ini sebagai referensi. Gambar dapat menggunakan **drawdb.app** baik diinstall di notebook atau diakses secara online. Dapat menggunakan program lain yang sejenis, yang penting relasi antar tabel tergambar dengan jelas. 
 ### TASK 2: Lengkapi Lembar Kerja Kimball 4-Step
 Isi titik-titik di bawah ini untuk proses bisnis **Penjualan Resep & Dispensing Obat**:
 - **Step 1: Select the Business Process**
