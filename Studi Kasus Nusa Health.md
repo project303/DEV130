@@ -51,7 +51,7 @@ Keterangan
 - raw_medicines.unit_price : harga jual obat per satuan
 - raw_prescription_items.quantity : jumlah obat yang diresepkan
 - raw_prescription_items.unit_price : harga obat per satuan
-- raw_prescription_items.discount_amount : potongan harga
+- raw_prescription_items.discount_amount : total potongan harga
 
 ## 3. TUGAS PARTICIPANT (LAB TASKS)
 ### TUGAS 1: Buat ER Diagram dari ke 7 dataset. 
