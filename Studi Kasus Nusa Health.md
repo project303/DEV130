@@ -66,39 +66,16 @@ Perhitungan KPI menggunakan data transaksi obat yang diresepkan
 Gunakan CREATE TABLE statement pada notebook ini sebagai referensi. Gambar dapat menggunakan **drawdb.app** baik diinstall di notebook atau diakses secara online. Dapat menggunakan program lain yang sejenis, yang penting relasi antar tabel tergambar dengan jelas. 
 
 - Simpan gambar dalam Google Slide
-- Berinama file Google Slide : **Studi Kasus NusaHealth-1**
+- Berinama file Google Slide : **Studi Kasus NusaHealth - ERD**
 - Simpan Google Slide ke Google Drive yang terdaftar dalam form pendaftaran
   
 ### TASK 2: Lengkapi Lembar Kerja Kimball 4-Step
-Isi titik-titik di bawah ini untuk proses bisnis **Penjualan Resep & Dispensing Obat**:
-- **Step 1: Select the Business Process**
-  - Proses Bisnis Utama: ......................................................................
-- **Step 2: Declare the Grain**
-  - Deklarasi Grain: 1 baris di Fact Table secara tepat mewakili .....................................
-- **Step 3: Identify the Dimensions**
-Daftar Dimensi:
-- dim_................... (Gunakan strategi SCD Type 2 untuk atribut city dan insurance_tier)
-- dim_................... (Profil dan spesialisasi medis)
-- dim_................... (Katalog obat, dosis, HPP, HET)
-- dim_................... (Klinik fisik vs Telemedisin)
-- dim_................... (BPJS vs Swasta vs Out-of-Pocket)
-- dim_................... (Dimensi kalender statis)
-- Degenerate Dimensions: ................... dan ...................
+- Copy Google Sheet ini ke dalam Google Drive yang terdaftar dalam form pendaftaran
+- Lengkapi Lembar Kerja Kimball 4-Step
 
-- **Step 4: Identify the Facts**
-  - Tentukan metrik/measures beserta sifat aditivitasnya (Additive / Non-Additive):
-    - quantity → (Additive / Non-Additive)
-    - gross_amount → Formula: ................... (Additive / Non-Additive)
-    - discount_amount → (Additive / Non-Additive)
-    - net_amount → Formula: ................... (Additive / Non-Additive)
-    - cogs_amount → Formula: ................... (Additive / Non-Additive)
-    - gross_profit → Formula: ................... (Additive / Non-Additive)
-   
-### TASK 2: Susun Kimball Enterprise Bus Matrix
-Lengkapi matriks di bawah ini dengan memberikan tanda [X] pada hubungan antara Proses Bisnis dan Tabel Dimensi terkait:
+### TASK 3: Buat ER Diagram tabel dimensi dan tabel fact
+- Simpan gambar ke dalam Google Slide yang sama pada **TUGAS 1**
 
-### TASK 3: Skrip DDL SQL (Implementation)
-Tuliskan skrip SQL terstruktur untuk:
-1. dim_patient dengan kolom kontrol SCD Type 2 (effective_date, expiration_date, is_current).
-2. fact_prescriptions dengan seluruh relasi Foreign Key ke tabel dimensi.
-3. obt_prescriptions (One Big Table View) yang menggabungkan fact table dan seluruh dimensi aktif.
+### TASK 4: Proses ETL dan Analisa Data
+- Lengkapi notebook ini
+- Copy dan simpan dalam Google Drive  yang terdaftar dalam form pendaftaran
