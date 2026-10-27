@@ -11,6 +11,31 @@
 ## 1. SKENARIO BISNIS: NUSAHEALTH
 NusaHealth adalah jaringan penyedia layanan kesehatan yang mengoperasikan Klinik Fisik dan Aplikasi Telemedisin. NusaHealth melayani pemeriksaan medis, peresepan obat, serta pemrosesan klaim asuransi (BPJS Kesehatan dan Asuransi Swasta).
 
+### Rumusan Masalah Bisnis
+1. **Efisiensi & Profitabilitas Peresepan Obat**
+   - NusaHealth kesulitan mengidentifikasi **kategori obat** dan **spesialisasi dokter** mana yang menyumbang **margin gross profit** tertinggi serta mana yang memiliki **biaya HPP (COGS)** tinggi tetapi margin tipis.
+   - Kurangnya visibilitas perbedaan kinerja penjualan resep antara **Klinik Fisik (Offline)** dan **Aplikasi Telemedisin (Online)**.
+2. **Akurasi Data Histori Pasien & Skema Asuransi**
+   - Perubahan **domisili pasien** dan kenaikan/penurunan **tingkatan asuransi (insurance tier)** sering kali menimpa data transaksi lama (overwriting), sehingga analisis historis perilaku pasien dan efektivitas skema asuransi menjadi tidak akurat.
+
+### Pertanyaan Bisnis
+- **Peresepan & Penjualan Obat**:
+  - Berapa **total pendapatan bersih (net amount)** dan **gross profit** yang dihasilkan per **kategori obat** dan **per spesialisasi dokter** **setiap bulannya**?
+  - Bagaimana perbandingan **volume penjualan** obat dan **profit margin** antara cabang **Klinik Fisik** dan **layanan Telemedisin**?
+  - Berapa **rerata diskon** yang diberikan **per transaksi resep** dan bagaimana pengaruhnya terhadap **margin keuntungan**?
+- **Pasien & Asuransi**
+  - Bagaimana **tren penggunaan obat** dan **pengeluaran pasien** berdasarkan **tingkatan asuransi (insurance tier)** mereka pada saat transaksi berlangsung?
+  - Apakah **perpindahan domisili** pasien (city/province) mempengaruhi **volume peresepan obat** di cabang tertentu?
+
+### Key Performance Indicators (KPI)
+| Kategori KPI | Nama KPI | Formulasi / Cara Hitung |
+| --- | --- | --- |
+| Financial / Profitability | Gross Profit Margin (%)              | (Net Amount - COGS Amount)/Net Amount x 100% |
+| Financial / Profitability | Average Net Revenue per Prescription | SUM(Net Amount) / Jumlah Transaksi Resep     |
+| Operational / Sales       | Prescription Line Item Volume        | SUM(Quantity)                                |
+| Discount Tracking         | Discount Rate (%)                    | SUM(Discount Amount) / SUM(Gros Amount) x 100% |
+
+
 Manajemen membutuhkan arsitektur Data Warehouse terintegrasi untuk menjawab kebutuhan analitis berikut:
 - Analisis Profitabilitas Peresepan & Obat: Memantau tren penjualan resep, margin keuntungan (gross profit), dan efisiensi biaya HPP (COGS) per kategori obat, spesialisasi dokter, serta cabang.
 - Histori Pasien & Skema Asuransi (SCD Type 2): Melacak jejak historis perubahan domisili pasien dan perubahan tingkatan asuransi (insurance tier) tanpa merusak data histori transaksi masa lalu.
