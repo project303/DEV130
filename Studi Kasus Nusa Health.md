@@ -54,6 +54,7 @@ Peserta diberikan 7 tabel sumber dari database OLTP NusaHealth:
 - raw_prescription_items.discount_amount : total potongan harga
 
 **Perhitungan Dasar KPI**
+
 Perhitungan KPI menggunakan data transaksi obat yang diresepkan
 - Gross Amount = quantity x unit_price
 - Net Amount = gross_amount - discount_amount
